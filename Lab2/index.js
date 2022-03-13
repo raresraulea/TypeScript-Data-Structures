@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var LinkedList_1 = require("./LinkedList");
+var ListNode_1 = require("./ListNode");
+var linkedList = new LinkedList_1.default(new ListNode_1.default(11));
+// linkedList.insertAtStart(new ListNode<number>(2));
+// linkedList.insertAtStart(new ListNode<number>(3));
+// linkedList.insertAtStart(new ListNode<number>(4));
+linkedList.insertSorted(new ListNode_1.default(211));
+linkedList.insertSorted(new ListNode_1.default(13));
+linkedList.insertSorted(new ListNode_1.default(47));
+linkedList.insertSorted(new ListNode_1.default(417));
+linkedList.insertSorted(new ListNode_1.default(42));
+linkedList.insertSorted(new ListNode_1.default(1));
+linkedList.insertAt(1, new ListNode_1.default(100));
+linkedList.iterate();
+// linkedList.removeAt(1);
+// linkedList.iterate();
+// linkedList.sort((a, b) => a < b);
+// import BinarySearchTree from "./BinarySearchTree";
+// import TreeNode from "./TreeNode";
+// let binarySearchTree = new BinarySearchTree();
+// binarySearchTree.insertNode(new TreeNode(10));
+// binarySearchTree.insertNode(new TreeNode(1));
+// binarySearchTree.insertNode(new TreeNode(5));
+// binarySearchTree.insertNode(new TreeNode(120));
+// binarySearchTree.inorder(binarySearchTree.getRoot());
+//# sourceMappingURL=index.js.map
